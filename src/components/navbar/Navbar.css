@@ -1,0 +1,153 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;    
+    font-size: x-large;
+}
+
+.menu-icon{
+    width: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.logo-div{
+    width: 130px;
+    gap: 0.5rem;
+}
+
+.logo-icon{
+    cursor: pointer;
+}
+
+.logo-name{
+    text-transform: capitalize;
+    cursor: pointer; 
+    font-weight: 600;
+}
+
+.search-box{
+    position: relative;
+    gap: 100px;
+}
+
+.search-box input{
+    width: 450px;
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    background: transparent;
+    padding-left: 15px;
+    font-size: large;
+    font-weight: normal;
+}
+
+.search-box input:focus{
+    /* border: 1px solid #ccc; */
+    border: 1px solid #007bff;
+    outline: none;
+}
+
+.search-icondiv{
+    position: absolute; 
+    height: 100%;
+    right: 1.5rem;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-left: 1px solid #ccc;
+}
+
+.search-icon{
+    cursor: pointer;
+    color: #666464;
+    margin-right: 5px;
+}
+
+.mic-div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mic-div:hover{
+    background-color: #bcbcbc;
+    transition: all 1s ease;
+}
+
+.mic-icon{
+    width: 20px;
+}
+
+.nav-right{
+    gap:0.5rem;
+}
+
+
+
+.upload-icon{
+    width: 1.5rem ;
+    height: 1.75rem;
+}
+
+.notification-icon{
+    cursor: pointer;
+}
+
+.profile-icon{
+    cursor: pointer;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+@media (max-width:900px) {
+    .menu-icon{
+        display: none;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .notification-icon{
+        display: none;
+    }
+    .logo-div{
+        width: 90px;
+        font-size: medium;
+    }
+   
+
+    .search-box input{
+        width: 100px;
+        font-size: medium;
+    }
+
+    .search-icondiv{
+        border: none;
+        width: 23px;
+        right: 1.2rem;
+    }
+    .mic-div{
+        width: 32px;
+        height: 32px;
+    }
+    
+}
+
+
+@media (max-width:300px) {
+    .mic-div{
+        display: none;
+    }    
+}
