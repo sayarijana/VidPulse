@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/VidPulse/static/css/main.04a23482.css",
+    "main.js": "/VidPulse/static/js/main.4f314aa6.js",
+    "static/media/cameron.png": "/VidPulse/static/media/cameron.cedb1ba5832f609542da.png",
+    "static/media/tom.png": "/VidPulse/static/media/tom.df63bfcb6f1c8f5d7137.png",
+    "static/media/jack.png": "/VidPulse/static/media/jack.3a2249a07dd80a9c36a4.png",
+    "static/media/megan.png": "/VidPulse/static/media/megan.d9c678d896bed0b8c031.png",
+    "static/media/simon.png": "/VidPulse/static/media/simon.a92c2df263101574e364.png",
+    "static/media/uplo.webp": "/VidPulse/static/media/uplo.52497bd92af8ad41f5a7.webp",
+    "index.html": "/VidPulse/index.html",
+    "main.04a23482.css.map": "/VidPulse/static/css/main.04a23482.css.map",
+    "main.4f314aa6.js.map": "/VidPulse/static/js/main.4f314aa6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04a23482.css",
+    "static/js/main.4f314aa6.js"
+  ]
+}
